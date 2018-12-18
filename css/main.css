@@ -1,0 +1,46 @@
+.myboard_wrap{
+    width:600px;
+    margin: 0 auto;
+    text-align: right;
+}
+.myboard_wrap > h1{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.myboard{
+    width: 100%;
+    margin: 20px 0px;
+}
+.myboard,
+.myboard th,
+.myboard td{
+    border-top:1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1;
+    border-collapse: collapse;
+    padding: 7px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+.myboard tr:nth-child(2n){
+    background-color: #f9f9f9;
+}
+.myboard-list-uid{
+    width:72px;    
+}  
+.myboard-list-user{
+    width:80px;    
+} 
+.myboard-list-date{
+    width:75px;    
+} 
+.myboard-list-view{
+    width:55px;    
+}
+.myboard_wrap textarea{
+    width: 100%;
+    resize: none; /* 크기 변경 불가 */
+}
+.myboard_wrap input{
+    width: 100%;
+}
